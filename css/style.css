@@ -1,0 +1,45 @@
+/*================================================================================*/
+/*========DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING===============*/
+/*================================================================================*/
+
+
+/*========================================*/
+/*========COMMON STYLING==================*/
+/*========================================*/
+.social{float:left;width:400px;height:35px;}
+.social ul, .social_small ul {list-style:none;margin:0 auto;padding:0;}
+.social ul.inlined, .social_small ul.inlined {float:left;}
+.social ul li{width:32px;height:32px;margin: 5px; text-indent:-9999px;}
+.social ul li a, .social_small ul li a{display:block;width:100%;height:100%;opacity: 0.8;-moz-opacity: 0.8;filter:alpha(opacity=80);}
+.social ul li a:hover, .social_small ul li a:hover{opacity: 1;-moz-opacity: 1;filter:alpha(opacity=1);}
+.social_small ul li{width:16px;height:16px;margin: 5px; text-indent:-9999px;}
+
+/*========================================*/
+/*========SOCIAL LARGE SIZE===============*/
+/*========================================*/
+.social ul a.twitter, a.facebook, a.flickr, a.friendfeed, a.delicious, a.digg, a.lastfm, a.youtube, a.feed, a.linked-in{background:url(../images/social_icons.png);}
+.social ul a.twitter{background-position: 0px 0px;}
+.social ul a.facebook{background-position: 0px -42px;}
+.social ul a.flickr{background-position: 0px -84px;}
+.social ul a.friendfeed{background-position: 0px -126px;}
+.social ul a.delicious{background-position: 0px -168px;}
+.social ul a.digg{background-position: 0px -210px;}
+.social ul a.lastfm{background-position: 0px -252px;}
+.social ul a.linked-in{background-position: 0px -294px;}
+.social ul a.youtube{background-position: 0px -336px;}
+.social ul a.feed{background-position: 0px -378px;}
+
+/*========================================*/
+/*========SOCIAL SMALL SIZE===============*/
+/*========================================*/
+.social_small ul a.twitter, .social_small ul a.facebook, .social_small ul a.flickr, .social_small ul a.friendfeed, .social_small ul a.delicious, .social_small ul a.digg, .social_small ul a.lastfm, .social_small ul a.youtube, .social_small ul a.feed, .social_small ul a.linked-in{background:url(../images/social_icons_small.png);}
+.social_small ul a.twitter{background-position: 0px 0px;}
+.social_small ul a.facebook{background-position: 0px -26px;}
+.social_small ul a.flickr{background-position: 0px -52px;}
+.social_small ul a.friendfeed{background-position: 0px -78px;}
+.social_small ul a.delicious{background-position: 0px -104px;}
+.social_small ul a.digg{background-position: 0px -130px;}
+.social_small ul a.lastfm{background-position: 0px -156px;}
+.social_small ul a.linked-in{background-position: 0px -182px;}
+.social_small ul a.youtube{background-position: 0px -208px;}
+.social_small ul a.feed{background-position: 0px -234px;}

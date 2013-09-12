@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>template</title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link href="../css/stylesheet.css" rel="stylesheet" type="text/css" />
+  	<link href="../css/menuvertical.css" rel="stylesheet" type="text/css" />
+   	<link href="../css/menuhorizontal.css" rel="stylesheet" type="text/css" />
+
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+
+<body>
+	<div id="Todo">
+	    <header>
+        	<nav class="nav_horizontal"><nav id="nav_center"><ul>
+		    <li><a id="active" href="../index.html">Home</a></li>
+	        <li><a href="../about.html">About us</a></li>
+	        <li><a href="../research.html">Research</a></li>
+	        <li><a href="../algorithms.html">Algorithms</a></li>
+	        </ul></nav></nav>
+            
+            <div id="Flags">
+	            <img id="Flag" src="../images/brasil.png" height="24" width="24"/></nav><img id="Flag" src="../images/spain.png" height="24" width="24"/></nav><img id="Flag" src="../images/usa.png" height="24" width="24"/>
+            </div>
+			<img src="../images/index_08.png" height="126px" width="37px"/><img src="../images/index_09.png" height="126px" width="950px"/>
+        
+        	<div id="BlueBar"></div>
+            <div id="BlueBar"></div>
+            <div id="BlueBar"></div>
+            <div id="BlueBar"></div>
+            <div id="BlueBar"></div>
+        </header>
+
+		<div id="Wrapper">
+        	<section id="Menu">
+            	<div id="TitleMenu"><pre>   </pre>Menu</div>
+                
+                
+		<ul id="nav_vertical">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../research.html" class="sub" tabindex="1">Research</a><img src="../images/down.gif" alt="" />
+                    <ul>
+                        <li><a href="../link1.html">Link 1</a></li>
+                        <li><a href="../link2.html">Link 2</a></li>
+                        <li><a href="../link3.html">Link 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="sub" tabindex="1">Algorithms</a><img src="../images/down.gif" alt="" />
+                    <ul>
+                        <li><a href="../link6.html">Link 6</a></li>
+                        <li><a href="../link7.html">Link 7</a></li>
+                        <li><a href="../link8.html">Link 8</a></li>
+                        <li><a href="../link9.html">Link 9</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About us</a></li>
+            </ul>
+            </section>
+        	<!-- TemplateBeginEditable name="content1" --> <!-- TemplateEndEditable -->
+            
+            <section id="Content">
+           	  <div id="TitleContent"><pre>   </pre>Supercomputers</div>
+                
+          </section>
+            
+	  </div>
+
+        <div id="BlueBar"></div>
+        <div id="BlueBar"></div>
+        <div id="BlueBar"></div>
+        <div id="BlueBar"></div>
+        <div id="BlueBar"></div>
+            
+		<footer>
+        	<div id="footer_center"
+            	<section id="Technologies">
+                Technologies
+	            </section>
+    	        <section id="SiteMap">
+                Site Map
+        	    </section>
+            </div>
+            <section id="Copyright">
+            <p>Copyright</p>
+            </section>
+		</footer>
+    
+		<div id="Cuerpo"></div>
+	</div>
+</body>
+</html>

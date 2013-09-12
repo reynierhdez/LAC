@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+#nav_vertical, #nav_vertical ul {list-style:none;padding:0;width:100%;}
+#nav_vertical ul {position:relative;z-index:-1;}
+#nav_vertical li {position:relative;z-index:100;}
+#nav_vertical ul li {margin-top:-23px;-moz-transition:0.4s ease-in;-ms-transition:0.4s ease-in;-o-transition: 0.4s ease-in;
+-webkit-transition: 0.4s ease-in;transition: 0.4s ease-in;}
+#nav_vertical li a {background-color:white;color:#003;display:block;font-size:12px;font-weight:bold;line-height:28px;outline:0;padding-left:15px;text-decoration:none;}
+#nav_vertical li a.sub {background:#eee url("file:///C|/Users/Reynier Hernández/Documents/images/down.gif") no-repeat;}
+#nav_vertical li a + img {cursor:pointer;display:none;height:28px;left:0;position:absolute;top:0;width:200px;}
+#nav_vertical li a img {border-width:0px;height:24px;line-height:28px;margin-right:8px;vertical-align:middle;width:24px;}
+#nav_vertical li a:hover {background-color:#003;color:white;transition:all 0.2s linear;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-ms-transition:all 0.2s linear;-o-transition:all 0.2s linear;}
+#nav_vertical ul li a {background-color:#CCF;border-bottom:1px solid white;color:#003;font-size:9px;line-height:22px;}
+#nav_vertical ul li a:hover {background-color:white;color:#004;transition:all 0.2s linear;-webkit-transition:all 0.2s linear;-moz-transition:all 0.2s linear;-ms-transition:all 0.2s linear;-o-transition:all 0.2s linear;}
+#nav_vertical a.sub:focus {background:#005;color:white;outline:0;}
+#nav_vertical a:focus ~ ul li {margin-top:0;-moz-transition:0.4s ease-in;-ms-transition:0.4s ease-in;-o-transition:0.4s ease-in;-webkit-transition:0.4s ease-in;transition:0.4s ease-in;}
+#nav_vertical a:focus + img, #nav_vertical a:active + img {display:block;}
+#nav_vertical a.sub:active {background:#004;color:white;outline:0;}
+#nav_vertical a:active ~ ul li {margin-top:0;}
+#nav_vertical ul:hover li {margin-top:0;}

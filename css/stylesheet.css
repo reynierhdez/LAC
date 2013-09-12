@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {font-family: 'Airstrip Four';src: url('file:///C|/Users/Reynier Hernández/Documents/fonts/airstrip.ttf');src: local('Airstrip Four'),local('Airstrip Four'),  url('file:///C|/Users/Reynier Hernández/Documents/fonts/airstrip.ttf') format('truetype');}
+@font-face {font-family: 'TwCen';src: url('file:///C|/Users/Reynier Hernández/Documents/fonts/tcceb.ttf');src: local('Tw Cen MT Cn Ex Bd'),local('Tw Cen MT Cn Ex Bd'),   url('file:///C|/Users/Reynier Hernández/Documents/fonts/tcceb.ttf') format('truetype');}
+html, html a {-webkit-font-smoothing: antialiased;text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+body{display: block;background: -webkit-linear-gradient(#72bae4, #FFF, #FFF);background: -ms-linear-gradient(#72bae4, #FFF, #FFF);background: -moz-linear-gradient(#72bae4, #FFF, #FFF);background: linear-gradient(#72bae4, #FFF, #FFF);}
+article{width:1024px;height:1000px;margin-left:auto;margin-right:auto;font-family:Arial, Helvetica, sans-serif;border-left:1px solid #c0b9b3;border-right:1px solid #c0b9b3;}
+#banner{height:136px;width:1026px;margin-left:auto;margin-right:auto;}
+div.BlueBar{position:relative;border-radius: 3px;width:100%;margin-left:auto;margin-right:auto;height:2px;margin-top:1px;background: #000033;background: -moz-linear-gradient(left,  #000033 0%, #ffffff 79%);background: -webkit-gradient(linear, left top, right top, color-stop(0%,#000033), color-stop(79%,#ffffff));background: -webkit-linear-gradient(left,  #000033 0%,#ffffff 79%);background: -o-linear-gradient(left,  #000033 0%,#ffffff 79%);background: -ms-linear-gradient(left,  #000033 0%,#ffffff 79%);background: linear-gradient(to right,  #000033 0%,#ffffff 79%);}
+#TitleMenu{border-top-left-radius:3px;border-top-right-radius:3px;font-family:'Airstrip Four', Arial, Helvetica, sans-serif;height:30px;width:100%;background-color:#003;color:white;font-size:17px;text-shadow: #eee 0px 0px 1px;display:-ms-flexbox;-ms-flex-align:center;display:-moz-box;-moz-box-align:center;display:-webkit-box;-webkit-box-align:center;display:box;box-align:center;}
+.Menu{position:relative;border-radius:3px;float:left;margin-top:15px;margin-left:15px;width:210px;height:370px;background-color:#FFF;border:1px solid #999;}
+.MenuWrapper{position:absolute;bottom:15px;width:100%}
+.clustrmap{width:160px;margin-left:auto;margin-right:auto;}
+.statcounter{width:52px;margin-left:auto;margin-right:auto;}
+
+#TitleContent{height:30px;width:100%;border-top-left-radius:3px;border-top-right-radius:3px;text-shadow: #333 0px 0px 1px;display:-ms-flexbox;-ms-flex-align:center;display:-moz-box;-moz-box-align:center;display:-webkit-box;-webkit-box-align:center;display:box;box-align:center;}
+#TitleContent h1{font-family: 'Airstrip Four', Arial, Helvetica, sans-serif;color: black;font-size: 17px;padding-top: 15px;}
+#ContentBox{border-radius:3px;float:right;margin-top:15px;margin-right:15px;font-family:Arial, Helvetica, sans-serif;width:765px;height:auto;background-color:#FFF;border:1px solid #999;}
+#Content{font-family:Arial, Helvetica, sans-serif;font-size:12px;margin-left:10px;}
+footer{position:relative;width:100%;height:auto;background: -webkit-linear-gradient(#003, #003, #004, #004, #004, #003, #004);background: -ms-linear-gradient(#003, #003, #004, #004, #004, #003, #004);background: -moz-linear-gradient(#003, #003, #004, #004, #004, #003, #004);background: linear-gradient(#003, #003, #004, #004, #004, #003, #004);border-top:1px solid #999;}
+#footer_center{display:block;width:1000px;height:200px;margin-left:auto;margin-right:auto;margin-top:10px;}
+#footer_left{position:relative;float:left;width:500px;height:200px;margin:auto;border-right:1px dotted #999;}
+#Copyright{width:700px;height:20px;text-align:center;margin-left:auto;margin-right:auto;}
+#mapCanvas{width:400px;height:200px;margin:auto;}
+#Data{position:absolute;bottom:15px;left:50px;width:400px;height:150px;margin-left:auto;margin-right:auto;color:#FFF;background-color:#003;font-family:Arial, Helvetica, sans-serif;font-size:12px;border-radius:3px;text-align:center;border:solid 1px white;}
+
+.floated_img{float:left;width:190px;height:180px;zoom:1;/*IE*/ display*:inline;/*IE*/ margin:15px;}
+.container_box{border-top:dotted 1px black;margin-top:25px;width:90%;padding:15px;margin-left:auto;margin-right:auto;}
+.curriculo{width:60%;height:500px;float:left;border-right:dotted 1px black;margin-bottom:15px;}
+.foto{width:250px;height:250px;float:right;}
+.contato{width:250px;height:250px;float:right;}
