@@ -1,0 +1,617 @@
+/* Folha de estilo - Páginas de Eventos
+Layout INPE - Instituto Nacional de Pesquisas Espaciais
+INTRANET / STI
+/*
+
+/*=========================================================================================================================================================*/
+/* GERAL */
+
+img{
+border:0px;
+}
+
+form{
+margin-top:20px;
+}
+
+a.pdf {
+	display:inline-block;
+	height:20px;
+	padding-left:30px;
+	background:url("/imagens/pdf_menor.png") no-repeat -1px top;
+}
+
+a.internet {
+	display:inline-block;
+	height:20px;
+	padding-left:30px;
+	background:url("/imagens/internet.png") no-repeat -1px top;
+}
+
+/*================================================================================================================================================================*/
+/* TEXTOS */
+
+.texto_laranja{
+color:#f7941d;
+}
+
+.texto_branco{
+color:#FFFFFF;
+font-weight:bold;
+}
+
+.cinza_menor{
+font-size:10px;
+color:#666666;
+}
+
+.azul_negrito{
+color:#007dbe; 
+font-weight:bold;
+}
+
+.texto_vermelho{
+color:#FF0000;
+}
+
+/*===================================================================================================================================================================*/
+/* INÍCIO */
+
+body{
+	font: 11px verdana, arial, helvetica, sans-serif;
+	line-height: 16px;
+	margin-top: 0px;
+	margin: auto;
+	margin-left: -495px; /*1024x780*/
+	padding-left: 50%;
+	background-color: #FFF;
+	background-image: none;
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+#divbody{
+	height:auto !important;
+	width:990px;
+	background-color:#ffffff;
+	border-left:#CCC double 1px;
+	border-right:#CCC double 1px;
+	/*overflow:auto;*/
+}
+
+/*===================================================================================================================================================================*/
+/* TOPO */
+
+/*#barraSuperior{
+	width:990px; 	
+	display:block;
+	height:28px;
+	background-color:#004b82;
+	float:left;
+	margin-left:-495px; 
+	padding-left:50%;
+	background:url(/imagens/barra-brasil-v3-bgx.gif) #004b82 repeat-x bottom;
+}*/
+
+#barraSuperior{
+	width:990px; 
+	display:block;
+	height:28px;
+	background-color:#004b82;
+	margin-left:-495px;
+	padding-left:50%;
+	background:url(/imagens/barra-brasil-v3-bgx.gif) #004b82 repeat-x bottom;
+}
+
+#barraSuperior div{
+	display:block;
+	height:28px;	
+}
+
+#barraSuperior .bsEsquerda{
+	float:left;
+	margin-left:-495px; /*1024x780*/
+	padding-left:50%;
+	background:url(/imagens/barra-brasil-v3-bgx.gif) #004b82 repeat-x bottom;
+	width:274px;
+}
+
+#barraSuperior .bsCentro{
+	width:224px;
+	float:left;
+	background:url(/imagens/barra-brasil-v3-bgx.gif) repeat-x bottom;
+	margin-left:auto;
+	margin-right:auto;
+}
+#barraSuperior .bsDireita{
+	float:right;
+	background:url(/imagens/barra-brasil-v3.gif) #004b82 no-repeat bottom;
+	width:492px;	
+}
+#barraSuperior .bsDireita a{
+	float:right;
+	display:block;
+	background:url() no-repeat bottom;
+}
+#barraSuperior .barraLogo{
+	float:left;
+	width:245px;
+	height:24px;
+	margin-left:30px;
+	margin-top:6px;
+	background:url() no-repeat center center;
+	/*_background:none!important;*/
+	/*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/BarraLogo.png',sizingMethod='scale');	*/
+}
+
+/*BARRA DO GOVERNO NOVA =============================================================================================*/
+#barra-brasil {
+	position: relative;
+	overflow: hidden;
+	width: 990px;
+	height: 28px;
+	background-color: #004b82;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+
+#barra-brasil .barra {
+    display: block;
+	float:right;
+    width: 990px;
+    height:28px;
+    margin: 0 auto;
+    background: url(/imagens/barra-brasil-v3-bgx.gif) 0 bottom repeat-x;
+}
+
+#barra-brasil .barra ul {
+	list-style:none;
+    float:right;
+    width: 319px;
+	margin:0px;
+}
+
+#barra-brasil .barra ul li {
+	list-style:none;
+    float: left;
+    padding-left: 25px;
+	margin:0px;
+}
+
+#barra-brasil .ai {
+    display: block;
+    width: 161px;
+    height: 28px;
+    text-indent: -1000px;
+    background: #004b82 url(/imagens/ai.png) no-repeat 0 4px;
+}
+
+#barra-brasil .brasilgov {
+    display: block;
+    width: 108px;
+    height: 28px;
+    text-indent: -1000px;
+    background: #004b82 url(/imagens/brasil.png) no-repeat 0 4px;
+}
+
+/* FIM BARRA DO GOVERNO NOVA =============================================================================================*/
+
+/*#topo_modelo{
+width:990px; 
+margin:0px;
+display:block;
+height:205px;
+line-height:205px;
+}*/
+
+#topo_modelo{
+width:990px; /*1024x780*/
+border-bottom: #4f7c32 3px solid;
+height:170px;
+}
+
+/*#detalhe_topo{
+width:990px; 
+height:35px;
+line-height:35px;
+border-bottom:3px;
+border-bottom-style:solid;
+}*/
+
+#detalhe_topo {
+	width: 990px; /*1024x780*/
+	height:26px;
+	line-height:26px;
+	border-bottom:solid #900 3px;
+	background-color:#003;
+}
+
+#detalhe_topo2 {
+width: 990px; /*1024x780*/
+border-bottom:3px;
+border-bottom-style:solid;
+height:35px; line-height:35px; vertical-align:middle;
+}
+
+#topo_hora {
+text-align:left;
+display:block;
+float:left;
+width:670px;
+padding-left:10px;
+font-weight:bold;
+font-size:10px;
+}
+
+#organizacao {
+text-align:right;
+display:block;
+float:right;
+width:300px;
+padding-right:10px;
+font-size:10px;
+}
+
+/*#faleconosco{
+margin-left:10px;
+float:left;
+}*/
+
+#faleconosco {
+text-align:left;
+padding-left:10px;
+font-weight:bold;
+font-size:10px;
+float:left;
+display:block;
+line-height:26px;
+height:26px;
+width:670px;
+}
+
+/*#bandeira{
+font-size:10px;
+text-align:right;
+width:120px;
+float:right;
+margin-right:10px;
+}*/
+
+#bandeira{
+font-size:10px;
+text-align:right;
+width:150px;
+float:left;
+display:block;
+}
+
+#topo_A {
+float:right;
+text-align:right;
+width:100px;
+margin-right:10px;
+}
+
+.menos{
+font:11px Geneva, Arial, Helvetica, sans-serif; 
+font-weight:bold;
+}
+
+.padrao{
+font:15px Geneva, Arial, Helvetica, sans-serif; 
+font-weight:bold;
+}
+
+.mais{
+font:20px Geneva, Arial, Helvetica, sans-serif; 
+font-weight:bold;
+}
+
+
+/*===================================================================================================================================================================*/
+/* MENU PRINCIPAL - ESQUERDO */
+
+	/*!!!!!!!!!!! MyCSSMenu Core CSS [Do Not Modify!] !!!!!!!!!!!!!*/
+	.qmmc .qmdivider{display:block;font-size:1px;border-style:solid;position:relative;z-index:1;}
+	.qmmc .qmdividery{float:left;}
+	.qmmc .qmtitle{display:block;cursor:default;white-space:nowrap;position:relative;z-index:1;}
+	.qmclear {font-size:1px;clear:left;line-height:0px;display:block;float:none !important;}
+	.qmmc {position:relative;z-index:10;}
+	.qmmc a, .qmmc li {float:left;display:block;white-space:nowrap;position:relative;z-index:1;}
+	.qmmc div a, .qmmc ul a, .qmmc ul li {float:none;}
+	.qmsh div a {float:left;}
+	.qmmc div{visibility:hidden;position:absolute;}
+	.qmmc li {z-index:auto;}
+	.qmmc ul {left:-10000px;position:absolute;z-index:10;}
+	.qmmc, .qmmc ul {list-style:none;padding:0px;margin:0px;}
+	.qmmc li a {float:none}
+	.qmmc li:hover>ul{left:auto;}
+	#qm0 li {float:none;}
+	#qm0 li:hover>ul{top:0px;left:100%;}
+	
+	
+	/*!!!!!!!!!!! MyCSSMenu Styles !!!!!!!!!!!*/
+
+
+	/* MyCSSMenu 0 */
+
+	
+	/*"""""""" (MAIN) Container""""""""*/	
+	#qm0	
+	{
+	float:left;
+	width:200px;
+	margin-bottom:30px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	}
+
+	/*"""""""" (MAIN) Items""""""""*/	
+	#qm0 a	
+	{	
+	width:190px;
+	display:block;
+	padding:5px;
+	text-decoration:none;
+	border-top-style:solid;
+	border-top-width:1px;
+	height: auto;	
+	}
+	
+	/*"""""""" (MAIN) Hover State""""""""*/	
+	#qm0 a:hover	
+	{		
+	}
+
+
+	/*"""""""" (MAIN) Active State""""""""*/	
+	body #qm0 .qmactive, body #qm0 .qmactive:hover	
+	{	
+	float:left;
+	margin-bottom:30px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	}
+
+
+	/*"""""""" (SUB) Container""""""""*/	
+	#qm0 div, #qm0 ul, #qm0 ul li
+	{	
+	text-align:left;
+	width:230px;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+
+
+	/*"""""""" (SUB) Items""""""""*/	
+	#qm0 div a, #qm0 ul a	
+	{	
+	width:230px;
+	display:block;
+	padding:5px;
+	text-decoration:none;
+	border-top-style:solid;
+	border-top-width:1px;
+	}
+
+
+	/*"""""""" (SUB) Hover State""""""""*/	
+	#qm0 div a:hover, #qm0 ul a:hover	
+	{	
+	}
+	
+	#qm0 span {
+	position:absolute;
+	top:3px;
+	right:5px;
+	font-weight:bold;
+	float:right;
+	}
+	
+	/*"""""""" (SUB) Active State""""""""*/	
+	body #qm0 div .qmactive, body #qm0 div .qmactive:hover	
+	{	
+	}
+
+
+#divleft{
+float:left;
+width:200px;
+margin:0px;
+display:block;
+}
+
+
+
+.menuheader{
+text-align:right; 
+font-weight:bold;
+font-variant:small-caps;
+padding-top:3px; 
+padding-right:5px;
+padding-left:5px;
+padding-bottom:3px;
+display:block; 
+height:19px;
+border-top-width: 1px;
+border-top-style:solid;
+}
+
+
+
+/*===================================================================================================================================================================*/
+/* CENTRO */
+
+h2{
+font:24px Georgia, "Times New Roman", Times, serif;
+font-weight:bold;
+text-align:right;
+color:#666666;
+font-variant:small-caps;
+border-bottom:1px dashed #666666;
+margin-right:25px;
+margin-left:25px;
+padding-top:10px;
+}
+
+#margem{
+padding-right:40px;
+padding-left:40px;
+padding-top:25px;
+padding-bottom:25px;
+background-color:#eee;
+}
+
+#texto{
+text-align:justify;
+}
+
+#divmid2{
+float:left;
+width:790px;
+min-height:400px;
+display:block;
+}
+
+#divmid3{
+float:left;
+width:590px;
+min-height:400px;
+}
+
+div.justify{
+text-align:justify;
+}
+
+div.right{
+text-align:right;
+}
+
+div.left{
+text-align:left;
+}
+
+div.center {
+text-align: center;
+}
+
+div.center div, div.center p, div.center table, div.center form {
+text-align: left; margin-left: auto; margin-right: auto;
+}
+
+fieldset.formulario{
+margin:0px;
+padding:0px;
+border:none;
+}
+
+fieldset.formulario input {
+font:11px verdana, arial, helvetica, sans-serif;
+}
+
+.esconde{
+font:12px "Times New Roman", Times, serif;
+font-variant:small-caps;
+text-align:left;
+padding-left:60px;
+padding-right:35px;
+padding-top:5px;
+padding-bottom:5px;
+width:800px; 
+margin-top: 3px;
+margin-bottom:3px;
+margin-left:30px;
+}
+
+.conteudo_esconde{
+margin:20px 80px 20px 80px;
+}
+
+/*===================================================================================================================================================================*/
+/* MENU LATERAL - DIREITO */
+
+#divright{
+float:right;
+display:inline;
+width:200px;
+margin:0px;
+padding-right:0px;
+padding-left:0px;
+text-align:center;
+}
+
+.destaques {
+text-align:justify;
+padding-left:10px;
+padding-right:10px;
+padding-bottom:20px;
+}
+
+.linha_azul{
+padding-top: 3px; 
+padding-right: 5px;
+padding-left: 5px;
+padding-bottom: 3px;
+min-height : 19px; 
+font-weight:bold; 
+text-align:left;
+padding-left:5px;
+}
+
+.linha_preta{
+text-align:center; 
+font-weight:bold;
+font-variant:small-caps;
+color:#000000;
+padding-top:3px; 
+padding-right:5px;
+padding-left:5px;
+padding-bottom:3px;
+min-height:19px; 
+}
+
+.links_relacionados{
+font-weight:bold;
+text-align:center;
+border-top-width:3px;
+border-bottom-style:solid;
+border-right-width:3px;
+border-right-style:solid;
+border-left-width:3px;
+border-left-style:solid;
+padding-left:15px;
+padding-right:15px;
+padding-top:25px;
+padding-bottom:25px;
+}
+
+
+/*===================================================================================================================================================================*/
+/* RODAPÉ */
+
+#divfoot{
+clear:both;
+padding:0;
+}
+
+#copyright{
+border-top:3px;
+border-top-style:solid;
+width:990px; /*1024x780*/
+height:25px;
+background:#9da98d;
+border-top-color:#4f7c32;
+}
+
+#copyrightfont{
+font-size:11px;
+padding-top:4px;
+text-align:center;
+color:#000000;
+}
+
+/*===================================================================================================================================================================*/

@@ -1,0 +1,202 @@
+/* Folha de estilo 
+Layout INPE - Instituto Nacional de Pesquisas Espaciais
+INTRANET / STI
+
+
+/*=========================================================================================================================================================*/
+/* GERAL */
+
+a:link{color:black;text-decoration:none;}
+a:active{color:black;text-decoration:none;}
+a:visited{color:black;text-decoration:none;}
+a:hover{color:#007dbe;text-decoration:underline;} 
+
+table {
+font:11px verdana, arial, helvetica, sans-serif;
+text-align:justify;
+}
+
+/*
+/*===================================================================================================================================================================*/
+/* INÍCIO */
+
+
+/*===================================================================================================================================================================*/
+/* TOPO */
+
+#bandeira{
+color:#FFFFFF;
+}
+
+#topo_A a:link{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#topo_A a:active{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#topo_A a:visited{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#topo_A a:hover{
+text-decoration:none;
+color:#d7c57a; 
+}
+
+#bandeira a:link{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#bandeira a:active{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#bandeira a:visited{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#bandeira a:hover{
+text-decoration:underline;
+color:#d7c57a; 
+}
+
+#faleconosco a:link{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#faleconosco a:active{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#faleconosco a:visited{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#faleconosco a:hover{
+text-decoration:none;
+color:#d7c57a; 
+}
+
+
+/*===================================================================================================================================================================*/
+/* MENU PRINCIPAL - ESQUERDO */
+
+#divleft{
+background-color:#cfd3c9;
+}
+
+.endereco_menu{
+background-color:#eeeeee;
+} 
+
+.menuheader{
+	color: #ffffff;
+	background-color: #000033;
+	border-top-color: #FFFFFF;
+}
+
+/*"""""""" (MAIN) Container""""""""*/	
+	#qm0	
+	{
+	border-bottom-color:#5a5a5a;
+	}
+
+
+	/*"""""""" (MAIN) Items""""""""*/	
+	#qm0 a	
+	{
+	border-top-color: #5a5a5a;
+	background-color: #00FFFF;
+	}
+	
+	/*"""""""" (MAIN) Hover State""""""""*/	
+	#qm0 a:hover	
+	{	
+	background:#9da98d;
+	color:#ffffff;	
+	}
+
+
+	/*"""""""" (MAIN) Active State""""""""*/	
+	body #qm0 .qmactive, body #qm0 .qmactive:hover	
+	{	
+	border-bottom-color:#cfd3c9;
+	}
+
+
+
+	/*"""""""" (SUB) Items""""""""*/	
+	#qm0 div a, #qm0 ul a	
+	{	
+	border-top-color:#cfd3c9;
+	}
+
+
+	/*"""""""" (SUB) Hover State""""""""*/	
+	#qm0 div a:hover, #qm0 ul a:hover	
+	{	
+	}
+
+	
+	/*"""""""" (SUB) Active State""""""""*/	
+	body #qm0 div .qmactive, body #qm0 div .qmactive:hover	
+	{		
+	background-color:#9da98d;
+	color:#fff;
+	}
+
+
+
+/*===================================================================================================================================================================*/
+/* CENTRO */
+
+#texto a:link{
+color:black;
+text-decoration:underline;
+}
+
+#texto a:active{
+color:black;
+text-decoration:underline;
+}
+
+#texto a:visited{
+color:black;
+text-decoration:underline;
+}
+
+#texto a:hover{
+color:#4f7c32;
+text-decoration:underline;
+}
+
+#divmid2{
+background:#ffffff;
+}
+
+.esconde{
+/*background-color:#9ea0e9; */
+background:url(/ermac/imagens/topo_menu.gif) no-repeat;
+}
+
+.conteudo_esconde{
+background-color:#ffffff; 
+}
+
+/*===================================================================================================================================================================*/
+/* RODAPÉ */
+
+
+
+/*===================================================================================================================================================================*/
